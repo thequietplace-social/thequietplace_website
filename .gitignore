@@ -1,0 +1,14 @@
+# project
+_site
+.sass-cache
+.vagrant
+docker_machine_env.txt
+.jekyll-metadata
+
+# editor special files
+.vscode
+
+# general
+.DS_Store
+Thumbs.db
+ehthumbs.db

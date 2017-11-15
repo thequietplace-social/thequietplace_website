@@ -1,0 +1,16 @@
+# Flag development mode / disable PDF generation
+environment: dev
+defaults:
+  -
+    scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      pdf: false
+  -
+    scope:
+      path: "" # all files
+    values:
+      layout: "page"
+      show-avatar: true
+      pdf: false
